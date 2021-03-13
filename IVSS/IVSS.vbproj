@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{30A02219-3424-450A-97A4-E61BED1C6F90}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SIGAC.My.MyApplication</StartupObject>
+    <RootNamespace>SIGAC</RootNamespace>
+    <AssemblyName>SIGAC-IVSS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>SIGAC-IVSS</ProductName>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SIGAC-IVSS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Optimize>false</Optimize>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SIGAC-IVSS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>IVSS.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>00C9208212B8819F039A97058706081D08922158</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>IVSS_ClaveTemporal.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Data.AdoDotNetInterop, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Tools.Applications.ServerDocument, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=8.0.23.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConexionBD.vb" />
+    <Compile Include="Control Errores.vb" />
+    <Compile Include="frm_acerca_de.Designer.vb">
+      <DependentUpon>frm_acerca_de.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_acerca_de.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_asig_familiares.Designer.vb">
+      <DependentUpon>frm_asig_familiares.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_asig_familiares.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_cancela_citas.Designer.vb">
+      <DependentUpon>frm_cancela_citas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_cancela_citas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_dias_no_laborables.Designer.vb">
+      <DependentUpon>frm_dias_no_laborables.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_dias_no_laborables.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_espera.Designer.vb">
+      <DependentUpon>frm_espera.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_espera.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_expandir_foto.Designer.vb">
+      <DependentUpon>frm_expandir_foto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_expandir_foto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_feriados.Designer.vb">
+      <DependentUpon>frm_feriados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_feriados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_respaldar.Designer.vb">
+      <DependentUpon>frm_respaldar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_respaldar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_restaurar.Designer.vb">
+      <DependentUpon>frm_restaurar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_restaurar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fecha.vb" />
+    <Compile Include="frm_reportes.Designer.vb">
+      <DependentUpon>frm_reportes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_reportes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_abrir_datos_paciente.Designer.vb">
+      <DependentUpon>frm_abrir_datos_paciente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_abrir_datos_paciente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_control_citas.Designer.vb">
+      <DependentUpon>frm_control_citas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_control_citas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_asig_medico_espec.Designer.vb">
+      <DependentUpon>frm_asig_medico_espec.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_asig_medico_espec.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_cargos.Designer.vb">
+      <DependentUpon>frm_cargos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_cargos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Especialidades.Designer.vb">
+      <DependentUpon>Especialidades.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Especialidades.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_areas.Designer.vb">
+      <DependentUpon>frm_areas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_areas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_departamentos.Designer.vb">
+      <DependentUpon>frm_departamentos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_departamentos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_empresas.Designer.vb">
+      <DependentUpon>frm_empresas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_empresas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_clave.designer.vb">
+      <DependentUpon>frm_clave.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_clave.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_estado.designer.vb">
+      <DependentUpon>frm_estado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_estado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_menu.Designer.vb">
+      <DependentUpon>frm_menu.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_profesiones.Designer.vb">
+      <DependentUpon>frm_profesiones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_profesiones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_resumen_citas.Designer.vb">
+      <DependentUpon>frm_resumen_citas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_resumen_citas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_tipo_doc_identificacion.Designer.vb">
+      <DependentUpon>frm_tipo_doc_identificacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_tipo_doc_identificacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_usuarios.Designer.vb">
+      <DependentUpon>frm_usuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_usuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mensaje_espera.vb" />
+    <Compile Include="Mostrar_reporte_modulo.vb" />
+    <Compile Include="Procedimientos Globales.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="frm_inicio.Designer.vb">
+      <DependentUpon>frm_inicio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_inicio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_turnos.Designer.vb">
+      <DependentUpon>frm_turnos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_turnos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Variables Globales.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frm_acerca_de.resx">
+      <DependentUpon>frm_acerca_de.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_asig_familiares.resx">
+      <DependentUpon>frm_asig_familiares.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_cancela_citas.resx">
+      <DependentUpon>frm_cancela_citas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_dias_no_laborables.resx">
+      <DependentUpon>frm_dias_no_laborables.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_espera.resx">
+      <DependentUpon>frm_espera.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_expandir_foto.resx">
+      <DependentUpon>frm_expandir_foto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_feriados.resx">
+      <DependentUpon>frm_feriados.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_respaldar.resx">
+      <DependentUpon>frm_respaldar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_restaurar.resx">
+      <DependentUpon>frm_restaurar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_reportes.resx">
+      <DependentUpon>frm_reportes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_abrir_datos_paciente.resx">
+      <DependentUpon>frm_abrir_datos_paciente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_control_citas.resx">
+      <DependentUpon>frm_control_citas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_asig_medico_espec.resx">
+      <DependentUpon>frm_asig_medico_espec.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_cargos.resx">
+      <DependentUpon>frm_cargos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Especialidades.resx">
+      <DependentUpon>Especialidades.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_areas.resx">
+      <DependentUpon>frm_areas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_departamentos.resx">
+      <DependentUpon>frm_departamentos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_empresas.resx">
+      <DependentUpon>frm_empresas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_clave.resx">
+      <DependentUpon>frm_clave.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_estado.resx">
+      <DependentUpon>frm_estado.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_menu.resx">
+      <DependentUpon>frm_menu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_profesiones.resx">
+      <DependentUpon>frm_profesiones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_resumen_citas.resx">
+      <DependentUpon>frm_resumen_citas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_tipo_doc_identificacion.resx">
+      <DependentUpon>frm_tipo_doc_identificacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_usuarios.resx">
+      <DependentUpon>frm_usuarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_inicio.resx">
+      <DependentUpon>frm_inicio.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_turnos.resx">
+      <DependentUpon>frm_turnos.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="IVSS_ClaveTemporal.pfx" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\DataSources\MySql.Data.MySqlClient.CustomInstaller.datasource" />
+    <None Include="My Project\DataSources\MySql.Data.MySqlClient.MySqlBulkLoader.datasource" />
+    <None Include="My Project\DataSources\MySql.Data.MySqlClient.MySqlClientFactory.datasource" />
+    <None Include="My Project\DataSources\MySql.Data.MySqlClient.MySqlCommand.datasource" />
+    <None Include="My Project\DataSources\MySql.Data.MySqlClient.MySqlCommandBuilder.datasource" />
+    <None Include="My Project\DataSources\MySql.Data.MySqlClient.MySqlConnection.datasource" />
+    <None Include="My Project\DataSources\MySql.Data.MySqlClient.MySqlConnectionStringBuilder.datasource" />
+    <None Include="My Project\DataSources\MySql.Data.MySqlClient.MySqlDataAdapter.datasource" />
+    <None Include="My Project\DataSources\MySql.Data.MySqlClient.MySqlDataReader.datasource" />
+    <None Include="My Project\DataSources\MySql.Data.MySqlClient.MySqlError.datasource" />
+    <None Include="My Project\DataSources\MySql.Data.MySqlClient.MySqlException.datasource" />
+    <None Include="My Project\DataSources\MySql.Data.MySqlClient.MySqlHelper.datasource" />
+    <None Include="My Project\DataSources\MySql.Data.MySqlClient.MySqlInfoMessageEventArgs.datasource" />
+    <None Include="My Project\DataSources\MySql.Data.MySqlClient.MySqlInfoMessageEventHandler.datasource" />
+    <None Include="My Project\DataSources\MySql.Data.MySqlClient.MySqlParameter.datasource" />
+    <None Include="My Project\DataSources\MySql.Data.MySqlClient.MySqlParameterCollection.datasource" />
+    <None Include="My Project\DataSources\MySql.Data.MySqlClient.MySqlRowUpdatedEventArgs.datasource" />
+    <None Include="My Project\DataSources\MySql.Data.MySqlClient.MySqlRowUpdatedEventHandler.datasource" />
+    <None Include="My Project\DataSources\MySql.Data.MySqlClient.MySqlRowUpdatingEventArgs.datasource" />
+    <None Include="My Project\DataSources\MySql.Data.MySqlClient.MySqlRowUpdatingEventHandler.datasource" />
+    <None Include="My Project\DataSources\MySql.Data.MySqlClient.MySqlScript.datasource" />
+    <None Include="My Project\DataSources\MySql.Data.MySqlClient.MySqlScriptErrorEventArgs.datasource" />
+    <None Include="My Project\DataSources\MySql.Data.MySqlClient.MySqlScriptErrorEventHandler.datasource" />
+    <None Include="My Project\DataSources\MySql.Data.MySqlClient.MySqlScriptEventArgs.datasource" />
+    <None Include="My Project\DataSources\MySql.Data.MySqlClient.MySqlStatementExecutedEventHandler.datasource" />
+    <None Include="My Project\DataSources\MySql.Data.MySqlClient.MySqlTrace.datasource" />
+    <None Include="My Project\DataSources\MySql.Data.MySqlClient.MySqlTransaction.datasource" />
+    <None Include="My Project\DataSources\MySql.Data.MySqlClient.Properties.Resources.datasource" />
+    <None Include="My Project\DataSources\MySql.Data.Types.MySqlConversionException.datasource" />
+    <None Include="My Project\DataSources\MySql.Data.Types.MySqlDateTime.datasource" />
+    <None Include="My Project\DataSources\MySql.Data.Types.MySqlDecimal.datasource" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="IVSS.ico" />
+    <None Include="Resources\application_go.png" />
+    <None Include="Resources\lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

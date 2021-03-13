@@ -1,0 +1,5 @@
+  Public servidor_mysql As String = "server=127.0.0.1;"
+    Public usuario_Mysql As String = "User Id=siste+;"
+    Public BD As String = "database=IVSS;"
+    Public Clave_mysql As String = "password=SisTe+2812+;"
+    Public Mysql_extra As String = "Persist Security Info=True"

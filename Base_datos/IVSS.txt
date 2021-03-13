@@ -1,0 +1,399 @@
+drop database if exists ivss;
+create database ivss;
+use ivss;
+
+drop table if exists afinidades;
+create table afinidades(
+cod_afinidad varchar(4) not null default '' primary key,
+afinidad varchar(50) not null default '',
+notas varchar(300) not null default '',
+visible bool not null default true) engine = innodb;
+insert into afinidades values ('0001','MADRE','',true);
+insert into afinidades values ('0002','PADRE','',TRUE);
+insert into afinidades values ('0003','TIO(A)','',true);
+insert into afinidades values ('0004','ABUELO(A)','',true);
+insert into afinidades values ('0005','BISABUELO(A)','',true);
+insert into afinidades values ('0006','HIJO(A)','',true);
+insert into afinidades values ('0007','NIETO(A)','',true);
+insert into afinidades values ('0008','HERMANO(A)','',true);
+insert into afinidades values ('0009','PRIMO(A)','',true);
+insert into afinidades values ('0010','CONYUGUE','',true);
+
+
+drop table if exists tipo_identificacion;
+create table tipo_identificacion(
+cod_tipo_iden varchar(4) not null default '' primary key,
+identificacion varchar(50) not null default '',
+notas varchar(300) not null default '',
+visible bool not null default true) engine = innodb;
+insert into tipo_identificacion values ('NCI','NUM. CEDULA','',true);
+insert into tipo_identificacion values ('NCE','NUM. CEDULA EXTRANJERA','',TRUE);
+insert into tipo_identificacion values ('NPS','NUM. PASAPORTE','',true);
+
+drop table if exists estado_territorial;
+create table estado_territorial(
+cod_edo_ter varchar(4) primary key not null default'',
+edo_territorial varchar(100) not null default '',
+visible bool not null default true) engine = innodb;
+insert into estado_territorial values ('ME01','MERIDA',true);
+
+drop table if exists ciudades;
+create table ciudades(
+cod_ciudad varchar(4) not null default '',
+cod_edo_ter varchar(4) not null default '',
+nombre_ciudad varchar(100) not null default '',
+visible bool not null default true,
+primary key (cod_ciudad),
+foreign key(cod_edo_ter) references estado_territorial(cod_edo_ter) on update cascade on delete restrict)engine=innodb;
+insert into ciudades values('ME01','ME01','MERIDA',true);
+
+
+drop table if exists nacionalidades;
+create table nacionalidades(
+cod_nacionalidad varchar(4) not null default '' primary key,
+nacionalidad varchar(100) not null default '',
+visible bool not null default true) engine = innodb;
+insert into nacionalidades values ('N123','VENEZOLANA',true);
+insert into nacionalidades values ('N000','SELECCIONAR',true);
+
+
+drop table if exists estado_civil;
+create table estado_civil(
+cod_edo_civil varchar(4) not null default '' primary key,
+estado_civil varchar(50) not null default '',
+visible bool not null default true) engine = innodb;
+insert into estado_civil values ('EC01','SOLTERO',true);
+insert into estado_civil values ('EC02','CASADO',true);
+insert into estado_civil values ('EC03','VIUDO',true);
+insert into estado_civil values ('EC04','DIVORCIADO',true);
+insert into estado_civil values ('EC05','CONCUBINO',true);
+
+drop table if exists profesiones;
+create table profesiones(
+cod_profesion varchar(4) primary key not null default '',
+profesion varchar(300) not null default '',
+visible bool not null default true) engine = innodb;
+insert into profesiones values ('P000','SELECCIONAR',true);
+insert into profesiones values ('0000','ESTUDIANTE',true);
+
+drop table if exists datos_personales;
+create table datos_personales(
+num_historia varchar(30) not null default '' primary key,
+id_num_historia varchar(30) not null default '',
+cod_tipo_iden varchar(4) not null default '',
+n_identificacion varchar(26) not null default '',
+nombres varchar(50) not null default '',
+apellidos varchar(50) not null default '',
+cod_nacionalidad varchar(4) not null default '',
+cod_edo_civil varchar(4) not null default '',
+cod_profesion varchar(4) not null default '',
+sexo varchar(10) not null default '',
+fecha_nac date not null,
+lugar_nac longtext not null default '',
+direccion_hab longtext not null default '',
+telf_cel varchar(20) not null default '',
+telf_hab varchar(20) not null default '',
+telf_ofi varchar(20) not null default '',
+telf_fax varchar(20) not null default '',
+telf_otr varchar(20) not null default '',
+notas varchar(300) not null default '',
+guardado_por varchar(30) not null default 0,
+fecha_c datetime not null,
+fecha_m datetime not null,
+email1 varchar(150) not null default '',
+email2 varchar(150) not null default '',
+cotizante bool not null default true,
+visible bool not null default true,
+index(id_num_historia),
+foreign key(cod_tipo_iden) references tipo_identificacion(cod_tipo_iden) on update cascade on delete restrict,
+foreign key(cod_nacionalidad) references nacionalidades(cod_nacionalidad) on update cascade on delete restrict,
+foreign key(cod_profesion) references profesiones(cod_profesion) on update cascade on delete restrict,
+foreign key(cod_edo_civil) references estado_civil(cod_edo_civil) on update cascade on delete restrict) engine=innodb;
+insert into datos_personales (num_historia,cotizante,id_num_historia,cod_tipo_iden,n_identificacion,nombres,apellidos,cod_nacionalidad,cod_edo_civil,cod_profesion,fecha_nac,guardado_por,fecha_c,fecha_m) values
+('NCI-0000',true,'NCI-0000','NCI','0000','administrador','del sistema','N123','EC01','P000','2011-01-05 08:00:00','NCI-0000','2011-01-05 08:00:00','2011-01-05 08:00:00');
+
+Drop table if exists feriados;
+create table feriados(
+id BIGINT UNSIGNED not null auto_increment,
+fecha Date not null,
+nombre_feriado varchar(100) not null default '',
+variable bool,
+notas varchar(400) not null default '',
+guardado_por varchar(30) not null default '',
+fecha_g datetime,
+Primary KEY (ID,Fecha),
+INDEX (guardado_por), FOREIGN KEY (guardado_por) REFERENCES datos_personales(id_num_historia) ON UPDATE CASCADE ON DELETE RESTRICT)ENGINE=INNODB;
+insert into feriados values('','2011-03-17','feriado prueba',false,'','NCI-0000','2011-03-17 10:00:00');
+
+drop table if exists medico_dias_no_laborables;
+create table medico_dias_no_laborables(
+num_historia varchar(30) not null default '',
+fecha date not null,
+motivo_ausencia varchar(300),
+guardado_por varchar(30) not null default '',
+fecha_g datetime not null,
+primary key(num_historia,fecha),
+FOREIGN KEY (num_historia) REFERENCES datos_personales(num_historia) ON UPDATE CASCADE ON DELETE RESTRICT,
+INDEX (guardado_por), FOREIGN KEY (guardado_por) REFERENCES datos_personales(id_num_historia) ON UPDATE CASCADE ON DELETE RESTRICT) engine=innodb;
+
+
+drop table if exists usuarios;
+create table usuarios(
+num_historia varchar(30) not null default '' primary key,
+nombre_usuario varchar(50) not null default '',
+clave blob not null default '',
+activo bool not null default true,
+tipo_cuenta varchar(20) not null default '',
+notas varchar(300) not null default '',
+guardado_por varchar(30) not null default '',
+fecha_g datetime,
+foreign key (num_historia) references datos_personales(num_historia) on update cascade on delete restrict,
+index (guardado_por), foreign key (guardado_por) references datos_personales(id_num_historia) on update cascade on delete restrict) engine=innodb;
+
+insert into usuarios values ('NCI-0000','administrador',aes_encrypt('1234','80865062812'),true,'ADMINISTRADOR','cuenta administrativa','NCI-0000','1980/12/28 - 12:00:00');
+
+
+
+drop table if exists fotos_perfil;
+create table fotos_perfil(
+idfoto int auto_increment,
+imagen longblob,
+num_historia varchar(30) not null default '',
+guardado_por varchar(30) not null default '',
+fecha_g datetime,
+primary key (idfoto),
+index(num_historia),foreign key(num_historia) references datos_personales(num_historia) on update cascade on delete restrict,
+index (guardado_por), foreign key (guardado_por) references datos_personales(id_num_historia) on update cascade on delete restrict) engine=innodb;
+
+
+drop table if exists empresas;
+create table empresas(
+cod_empresa varchar(4) primary key not null default '',
+descrip_empresa varchar(400) not null default '',
+cod_edo_ter varchar(4) not null default '',
+cod_ciudad varchar(4) not null default '',
+direccion varchar(400) not null default '',
+telefono varchar(50) not null default '',
+fax varchar(50) not null default '',
+otrotelf varchar(50) not null default '',
+email varchar(150) not null default '',
+web varchar(255) not null default '',
+blog varchar(255) not null default '',
+notas varchar(300) not null default '',
+visible bool not null default true,
+guardado_por varchar(30) not null default '',
+fecha_g datetime,
+index (guardado_por), foreign key (guardado_por) references datos_personales(num_historia) on update cascade on delete restrict,
+index (cod_edo_ter),foreign key(cod_edo_ter) references estado_territorial(cod_edo_ter) on update cascade on delete restrict,
+index (cod_ciudad),foreign key(cod_ciudad) references ciudades(cod_ciudad) on update cascade on delete restrict)engine=innodb;
+
+insert into empresas (cod_empresa,descrip_empresa,cod_edo_ter,cod_ciudad,guardado_por,fecha_g)
+values ('0001','INSTITUTO VENEZONALO DE LO SEGUROS SOCIALES (MERIDA)','ME01','ME01','NCI-0000','1980/12/28 - 12:00:00');
+
+Drop table if exists departamentos;
+create table departamentos(
+cod_dep varchar(4) PRIMARY KEY not null default '',
+departamento varchar(200) not null default '',
+notas varchar(300) not null default '',
+guardado_por varchar(30) not null default '',
+fecha_G datetime,
+visible bool not null default true,
+INDEX (guardado_por), FOREIGN KEY (guardado_por) REFERENCES Datos_Personales(id_num_historia) ON UPDATE CASCADE ON DELETE RESTRICT)ENGINE=INNODB;
+INSERT into departamentos Values('0001','DIRECCION','OFICINA DIRECTIVA','NCI-0000','1980/12/28 12:00:00',true);
+
+Drop table if exists areas;
+create table areas(
+cod_area varchar(4) PRIMARY KEY not null default '',
+area varchar(100) not null default '',
+notas varchar(300) not null default '',
+guardado_por varchar(30) not null default '',
+fecha_G datetime,
+visible bool not null default true,
+INDEX (guardado_por), FOREIGN KEY (guardado_por) REFERENCES Datos_Personales(id_num_historia) ON UPDATE CASCADE ON DELETE RESTRICT)ENGINE=INNODB;
+INSERT into Areas Values('0001','DIRECCION','OFICINA DIRECTIVA','NCI-0000','1980/12/28 12:00:00',true);
+
+Drop table if exists cargos;
+create table cargos(
+cod_cargo varchar(4) PRIMARY KEY not null default '',
+descrip_cargo varchar(100) not null default '',
+grado int not null default 0,
+notas varchar(300) not null default '',
+guardado_por varchar(30) not null default '',
+fecha_g datetime,
+visible bool not null default true,
+INDEX (guardado_por), FOREIGN KEY (guardado_por) REFERENCES Datos_Personales(id_num_historia) ON UPDATE CASCADE ON DELETE RESTRICT)ENGINE=INNODB;
+INSERT INTO cargos Values ('0001','DIRECTOR ADMINISTRATIVO',1,'NINGUNA','NCI-0000','1980/12/28 12:00:00',true);
+INSERT INTO cargos Values ('0002','ADMINISTRADOR DEL SISTEMA',1,'NINGUNA','NCI-0000','1980/12/28 12:00:00',true);
+
+
+Drop table if exists especialidades;
+create table especialidades(
+cod_espec varchar(4) PRIMARY KEY not null default '',
+especialidad varchar(300) not null default '',
+notas varchar(300) not null default '',
+guardado_por varchar(30) not null default '',
+fecha_a date,
+fecha_g datetime,
+visible bool not null default true,
+INDEX (guardado_por), FOREIGN KEY (guardado_por) REFERENCES Datos_Personales(id_num_historia) ON UPDATE CASCADE ON DELETE RESTRICT)ENGINE=INNODB;
+INSERT into especialidades Values('E001','MEDICINA GENERAL','MEDICINA GENERAL','NCI-0000','1980/12/28 12:00:00','1980/12/28 12:00:00',true);
+INSERT into especialidades Values('E002','MEDICINA DE FAMILIA','NINGUNA','NCI-0000','1980/12/28 12:00:00','1980/12/28 12:00:00',true);
+INSERT into especialidades Values('E003','GINECOLOGIA','NINGUNA','NCI-0000','1980/12/28','1980/12/28 12:00:00',true);
+INSERT into especialidades Values('E004','PSIQUIATRIA','NINGUNA','NCI-0000','1980/12/28','1980/12/28 12:00:00',true);
+INSERT into especialidades Values('E005','CARDIOLOGIA','NINGUNA','NCI-0000','1980/12/28','1980/12/28 12:00:00',true);
+INSERT into especialidades Values('E006','PEDIATRIA','NINGUNA','NCI-0000','1980/12/28','1980/12/28 12:00:00',true);
+
+
+Drop table if exists mes;
+create table mes(
+no_mes int PRIMARY KEY not null default 0,
+mes varchar(50)  not null default '',
+visible Bool not null default false)ENGINE=INNODB;
+insert into mes values (1,'ENERO',TRUE);
+insert into mes values (2,'FEBRERO',true);
+insert into mes values (3,'MARZO',true);
+insert into mes values (4,'ABRIL',true);
+insert into mes values (5,'MAYO',true);
+insert into mes values (6,'JUNIO',true);
+insert into mes values (7,'JULIO',true);
+insert into mes values (8,'AGOSTO',true);
+insert into mes values (9,'SEPTIEMBRE',true);
+insert into mes values (10,'OCTUBRE',true);
+insert into mes values (11,'NOVIEMBRE',true);
+insert into mes values (12,'DICIEMBRE',true);
+
+
+Drop table if exists dias_fin_sem;
+create table dias_fin_sem(
+no_dia int PRIMARY KEY not null default 0,
+dia varchar(50)  not null default '',
+fin_semana Bool not null default false)ENGINE=INNODB;
+insert into Dias_Fin_sem values (1,'DOMINGO',TRUE);
+insert into Dias_Fin_sem values (2,'LUNES',FALSE);
+insert into Dias_Fin_sem values (3,'MARTES',FALSE);
+insert into Dias_Fin_sem values (4,'MIERCOLES',FALSE);
+insert into Dias_Fin_sem values (5,'JUEVES',FALSE);
+insert into Dias_Fin_sem values (6,'VIERNES',FALSE);
+insert into Dias_Fin_sem values (7,'SABADO',TRUE);
+
+drop table if exists turnos;
+create table turnos(
+cod_turno varchar(4) not null default '' primary key,
+turno varchar(30) not null default '',
+hora_inicio time,
+hora_fin time,
+guardado_por varchar(30) not null default '',
+fecha_g datetime,
+visible bool not null default true,
+INDEX (guardado_por), FOREIGN KEY (guardado_por) REFERENCES Datos_Personales(id_num_historia) ON UPDATE CASCADE ON DELETE RESTRICT)ENGINE=INNODB;
+insert into turnos values('0001','MAÑANA','08:00:59','12:00:00','NCI-0000','2011-03-07 08:00:00',TRUE);
+insert into turnos values('0002','TARDE','14:00:59','18:00:00','NCI-0000','2011-03-07 08:00:00',TRUE);
+
+drop table if exists turno_especialidad;
+create table turno_especialidad(
+cod_turno varchar(4) not null default '',
+cod_espec varchar(4) not null default '',
+max_pacientes int(4) not null default 25,
+guardado_por varchar(30) not null default '',
+fecha_g datetime,
+primary key(cod_turno,cod_espec),
+INDEX (guardado_por), FOREIGN KEY (guardado_por) REFERENCES Datos_Personales(id_num_historia) ON UPDATE CASCADE ON DELETE RESTRICT,
+FOREIGN KEY (cod_turno) REFERENCES turnos(cod_turno) ON UPDATE CASCADE ON DELETE RESTRICT,
+FOREIGN KEY (cod_espec) REFERENCES especialidades(cod_espec) ON UPDATE CASCADE ON DELETE RESTRICT)ENGINE=INNODB;
+insert into turno_especialidad values('0001','E001',25,'NCI-0000','2011-03-07 13:43:00');
+
+drop table if exists medico_especialidad;
+create table medico_especialidad(
+num_historia varchar(30) not null default '',
+cod_espec varchar(4) not null default '',
+cod_turno varchar(4) not null default '',
+guardado_por varchar(30) not null default '',
+fecha_g datetime,
+primary key(num_historia,cod_espec,cod_turno),
+INDEX (guardado_por), FOREIGN KEY (guardado_por) REFERENCES Datos_Personales(id_num_historia) ON UPDATE CASCADE ON DELETE RESTRICT,
+FOREIGN KEY (num_historia) REFERENCES Datos_Personales(num_historia) ON UPDATE CASCADE ON DELETE RESTRICT,
+FOREIGN KEY (cod_espec) REFERENCES especialidades(cod_espec) ON UPDATE CASCADE ON DELETE RESTRICT,
+FOREIGN KEY (cod_turno) REFERENCES turnos(cod_turno) ON UPDATE CASCADE ON DELETE RESTRICT)ENGINE=INNODB;
+insert into medico_especialidad values('NCI-0000','E001','0001','NCI-0000','2011-03-07 13:43:00');
+
+drop table if exists estado_cita;
+create table estado_cita(
+cod_edo_cita varchar(4) not null default '' primary key,
+descrip_edo_cita varchar(20) not null default'',
+visible bool not null default true) engine=innodb;
+insert into estado_cita values('0000','PENDIENTE',true);
+insert into estado_cita values('0001','ATENDIDO',true);
+insert into estado_cita values('0002','CANCELADA',true);
+
+
+
+drop table if exists tipos_citas;
+create table tipos_citas(
+cod_tipo_cita varchar(4) not null default '' primary key,
+descripcion_tipo varchar(20) not null default'',
+max_diario int(4) not null default 0,
+visible bool not null default true) engine=innodb;
+insert into tipos_citas values('0001','1RA CONSULTA',2,true);
+insert into tipos_citas values('0002','CONSULTA',0,true);
+insert into tipos_citas values('0003','OPERATORIA',0,true);
+insert into tipos_citas values('0004','SEGUIMIENTO',0,true);
+insert into tipos_citas values('0005','ERGOMETRIA',0,true);
+insert into tipos_citas values('0006','ULTRASONIDO',0,true);
+insert into tipos_citas values('0007','COLPOSCOPIA',0,true);
+
+drop table if exists citas_medicas;
+create table citas_medicas(
+num_historia varchar(30) not null default '',
+cod_espec varchar(4) not null default '',
+cod_medico varchar(30) not null default '',
+cod_turno varchar(4) not null default '',
+cod_tipo_cita varchar(4) not null default '',
+cod_edo_cita varchar(4) not null default '',
+fecha_cita date,
+notas varchar(400) not null default '',
+guardado_por varchar(30) not null default '',
+fecha_g datetime,
+primary key (num_historia,cod_espec,cod_medico,cod_turno,fecha_cita),
+FOREIGN KEY (num_historia) REFERENCES Datos_Personales(num_historia) ON UPDATE CASCADE ON DELETE RESTRICT,
+FOREIGN KEY (cod_espec) REFERENCES especialidades(cod_espec) ON UPDATE CASCADE ON DELETE RESTRICT,
+FOREIGN KEY (cod_medico) REFERENCES datos_personales(id_num_historia) ON UPDATE CASCADE ON DELETE RESTRICT,
+FOREIGN KEY (cod_turno) REFERENCES turnos(cod_turno) ON UPDATE CASCADE ON DELETE RESTRICT,
+index(cod_tipo_cita),FOREIGN KEY (cod_tipo_cita) REFERENCES tipos_citas(cod_tipo_cita) ON UPDATE CASCADE ON DELETE RESTRICT,
+index(cod_edo_cita),FOREIGN KEY (cod_edo_cita) REFERENCES estado_cita(cod_edo_cita) ON UPDATE CASCADE ON DELETE RESTRICT,
+index(guardado_por),FOREIGN KEY (guardado_por) REFERENCES Datos_Personales(id_num_historia) ON UPDATE CASCADE ON DELETE RESTRICT)ENGINE=INNODB;
+
+insert into citas_medicas values('NCI-0000','E001','NCI-0000','0001','0001','0000','2011-03-12','','NCI-0000','2011-03-12 10:13:00');
+
+drop table if exists antecedentes;
+create table antecedentes(
+num_historia varchar(30) not null default '' primary key,
+grupo_sang varchar(3) not null default '',
+drogas bool not null default false,
+hepatitis bool not null default false,
+asma bool not null default false,
+diabetes bool not null default false,
+fuma varchar(10) not null default '',
+bebe varchar(10) not null default '',
+alergias varchar(400) not null default '',
+cirugias varchar(400) not null default '',
+observaciones varchar(400) not null default '',
+fecha_g datetime,
+guardado_por varchar(30) not null default '',
+index(guardado_por),FOREIGN KEY (guardado_por) REFERENCES Datos_Personales(id_num_historia) ON UPDATE CASCADE ON DELETE RESTRICT,
+FOREIGN KEY (num_historia) REFERENCES Datos_Personales(num_historia) ON UPDATE CASCADE ON DELETE RESTRICT)ENGINE=INNODB;
+
+drop table if exists familiares;
+create table familiares(
+num_historia varchar(30) not null default '',
+cod_familiar varchar(30) not null default '',
+cod_afinidad varchar(4) not null default '',
+beneficiario bool not null default true,
+guardado_por varchar(30) not null default '',
+fecha_g datetime,
+primary key (num_historia,cod_familiar),
+FOREIGN KEY (num_historia) REFERENCES Datos_Personales(num_historia) ON UPDATE CASCADE ON DELETE RESTRICT,
+FOREIGN KEY (cod_familiar) REFERENCES Datos_Personales(id_num_historia) ON UPDATE CASCADE ON DELETE RESTRICT,
+index(cod_afinidad),FOREIGN KEY (cod_afinidad) REFERENCES afinidades(cod_afinidad) ON UPDATE CASCADE ON DELETE RESTRICT,
+index(guardado_por),FOREIGN KEY (guardado_por) REFERENCES Datos_Personales(id_num_historia) ON UPDATE CASCADE ON DELETE RESTRICT) engine = innodb;
+
+
