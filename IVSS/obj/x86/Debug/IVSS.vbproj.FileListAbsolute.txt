@@ -1,0 +1,302 @@
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\IVSS.vbproj.ResolveComReference.cache
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\bin\Debug\Interop.WMPLib.dll
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\bin\Debug\SIGAC-IVSS.exe
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\bin\Debug\SIGAC-IVSS.pdb
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\bin\Debug\SIGAC-IVSS.xml
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_clave.resources
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_estados.resources
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.Frm_menu.resources
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.Resources.resources
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC-IVSS.exe
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC-IVSS.xml
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC-IVSS.pdb
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_tipo_doc_identificacion.resources
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.Especialidades.resources
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_empresas.resources
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_areas.resources
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_departamentos.resources
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_cargos.resources
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_profesiones.resources
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_inicio.resources
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_turnos.resources
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_asig_medico_espec.resources
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_abrir_datos_paciente.resources
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_control_cita.resources
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\bin\Debug\SIGAC-IVSS.exe.config
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_reportes.resources
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_restaurar.resources
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_respaldar.resources
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_cancela_citas.resources
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_resumen_citas.resources
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_dias_no_laborables.resources
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_expandir_foto.resources
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\bin\Debug\Interop.MSComCtl2.dll
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\bin\Debug\AxInterop.MSComCtl2.dll
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\Interop.MSComCtl2.dll
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\AxInterop.MSComCtl2.dll
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_espera.resources
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_feriados.resources
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_acerca_de.resources
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_usuarios.resources
+C:\Users\Alex\documents\visual studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_asig_familiares.resources
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\bin\Debug\SIGAC-IVSS.exe.config
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\Interop.MSComCtl2.dll
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\Interop.WMPLib.dll
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\AxInterop.MSComCtl2.dll
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\AxInterop.WMPLib.dll
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\IVSS.vbproj.ResolveComReference.cache
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC-IVSS.exe
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC-IVSS.xml
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC-IVSS.pdb
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_acerca_de.resources
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_asig_familiares.resources
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_cancela_citas.resources
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_dias_no_laborables.resources
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_espera.resources
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_expandir_foto.resources
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_feriados.resources
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_respaldar.resources
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_restaurar.resources
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_reportes.resources
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_abrir_datos_paciente.resources
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_control_cita.resources
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_asig_medico_espec.resources
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_cargos.resources
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.Especialidades.resources
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_areas.resources
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_departamentos.resources
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_empresas.resources
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_clave.resources
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_estados.resources
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.Frm_menu.resources
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_profesiones.resources
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_resumen_citas.resources
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_tipo_doc_identificacion.resources
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_usuarios.resources
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.Resources.resources
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_inicio.resources
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_turnos.resources
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\bin\Debug\SIGAC-IVSS.exe
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\bin\Debug\SIGAC-IVSS.pdb
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\bin\Debug\SIGAC-IVSS.xml
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\bin\Debug\Interop.MSComCtl2.dll
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\bin\Debug\Interop.WMPLib.dll
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\bin\Debug\AxInterop.MSComCtl2.dll
+E:\Documentos\Mis Documentos\Visual Studio 2010\Projects\IVSS\IVSS\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Alexi\Desktop\IVSS\IVSS\bin\Debug\SIGAC-IVSS.exe.config
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\Interop.MSComCtl2.dll
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\AxInterop.MSComCtl2.dll
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\IVSS.vbproj.ResolveComReference.cache
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\SIGAC-IVSS.exe
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\SIGAC-IVSS.xml
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\SIGAC-IVSS.pdb
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_acerca_de.resources
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_asig_familiares.resources
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_cancela_citas.resources
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_dias_no_laborables.resources
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_espera.resources
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_expandir_foto.resources
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_feriados.resources
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_respaldar.resources
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_restaurar.resources
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_reportes.resources
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_abrir_datos_paciente.resources
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_control_cita.resources
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_asig_medico_espec.resources
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_cargos.resources
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\SIGAC.Especialidades.resources
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_areas.resources
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_departamentos.resources
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_empresas.resources
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_clave.resources
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_estados.resources
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\SIGAC.Frm_menu.resources
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_profesiones.resources
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_resumen_citas.resources
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_tipo_doc_identificacion.resources
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_usuarios.resources
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\SIGAC.Resources.resources
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_inicio.resources
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_turnos.resources
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Alexi\Desktop\IVSS\IVSS\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Alexi\Desktop\IVSS\IVSS\bin\Debug\SIGAC-IVSS.exe
+C:\Users\Alexi\Desktop\IVSS\IVSS\bin\Debug\SIGAC-IVSS.pdb
+C:\Users\Alexi\Desktop\IVSS\IVSS\bin\Debug\SIGAC-IVSS.xml
+C:\Users\Alexi\Desktop\IVSS\IVSS\bin\Debug\Interop.MSComCtl2.dll
+C:\Users\Alexi\Desktop\IVSS\IVSS\bin\Debug\Interop.WMPLib.dll
+C:\Users\Alexi\Desktop\IVSS\IVSS\bin\Debug\AxInterop.MSComCtl2.dll
+C:\Users\Alexi\Desktop\IVSS\IVSS\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\bin\Debug\SIGAC-IVSS.exe.config
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\Interop.MSComCtl2.dll
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\AxInterop.MSComCtl2.dll
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\IVSS.vbproj.ResolveComReference.cache
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC-IVSS.exe
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC-IVSS.xml
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC-IVSS.pdb
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\bin\Debug\SIGAC-IVSS.exe
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\bin\Debug\SIGAC-IVSS.pdb
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\bin\Debug\SIGAC-IVSS.xml
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\bin\Debug\Interop.MSComCtl2.dll
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\bin\Debug\Interop.WMPLib.dll
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\bin\Debug\AxInterop.MSComCtl2.dll
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_acerca_de.resources
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_asig_familiares.resources
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_cancela_citas.resources
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_dias_no_laborables.resources
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_espera.resources
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_expandir_foto.resources
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_feriados.resources
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_respaldar.resources
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_restaurar.resources
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_reportes.resources
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_abrir_datos_paciente.resources
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_control_cita.resources
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_asig_medico_espec.resources
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_cargos.resources
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.Especialidades.resources
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_areas.resources
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_departamentos.resources
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_empresas.resources
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_clave.resources
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_estados.resources
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.Frm_menu.resources
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_profesiones.resources
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_resumen_citas.resources
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_tipo_doc_identificacion.resources
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_usuarios.resources
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.Resources.resources
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_inicio.resources
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_turnos.resources
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Alexi\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\IVSS.vbprojResolveAssemblyReference.cache
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\IVSS.vbproj.GenerateResource.Cache
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\IVSS\IVSS\bin\Debug\SIGAC-IVSS.exe.manifest
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\IVSS\IVSS\bin\Debug\SIGAC-IVSS.application
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC-IVSS.exe.manifest
+C:\Users\Alex\Documents\Visual Studio 2010\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC-IVSS.application
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\bin\Debug\SIGAC-IVSS.exe.config
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\Interop.MSComCtl2.dll
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\AxInterop.MSComCtl2.dll
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\IVSS.vbproj.ResolveComReference.cache
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC-IVSS.exe
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC-IVSS.xml
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC-IVSS.pdb
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\bin\Debug\SIGAC-IVSS.exe.manifest
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\bin\Debug\SIGAC-IVSS.application
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\bin\Debug\SIGAC-IVSS.exe
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\bin\Debug\SIGAC-IVSS.pdb
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\bin\Debug\SIGAC-IVSS.xml
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\bin\Debug\MySql.Data.dll
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\bin\Debug\Interop.MSComCtl2.dll
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\bin\Debug\AxInterop.MSComCtl2.dll
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_acerca_de.resources
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_asig_familiares.resources
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_cancela_citas.resources
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_dias_no_laborables.resources
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_espera.resources
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_expandir_foto.resources
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_feriados.resources
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_respaldar.resources
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_restaurar.resources
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_reportes.resources
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_abrir_datos_paciente.resources
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_control_cita.resources
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_asig_medico_espec.resources
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_cargos.resources
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.Especialidades.resources
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_areas.resources
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_departamentos.resources
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_empresas.resources
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_clave.resources
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_estados.resources
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.Frm_menu.resources
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_profesiones.resources
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_resumen_citas.resources
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_tipo_doc_identificacion.resources
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_usuarios.resources
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.Resources.resources
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_inicio.resources
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_turnos.resources
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\IVSS.vbproj.GenerateResource.Cache
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC-IVSS.exe.manifest
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC-IVSS.application
+C:\Users\Alex\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\IVSS.vbprojResolveAssemblyReference.cache
+C:\Users\Alexi\Documents\Visual Studio 2012\Projects\IVSS\IVSS\bin\Debug\SIGAC-IVSS.exe.config
+C:\Users\Alexi\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\IVSS.vbproj.ResolveComReference.cache
+C:\Users\Alexi\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC-IVSS.exe
+C:\Users\Alexi\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC-IVSS.xml
+C:\Users\Alexi\Documents\Visual Studio 2012\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC-IVSS.pdb
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC-IVSS.exe.config
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\IVSS.vbproj.ResolveComReference.cache
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_acerca_de.resources
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_asig_familiares.resources
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_cancela_citas.resources
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_dias_no_laborables.resources
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_espera.resources
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_expandir_foto.resources
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_feriados.resources
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_respaldar.resources
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_restaurar.resources
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_reportes.resources
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_abrir_datos_paciente.resources
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_control_cita.resources
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_asig_medico_espec.resources
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_cargos.resources
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.Especialidades.resources
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_areas.resources
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_departamentos.resources
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_empresas.resources
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_clave.resources
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_estados.resources
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.Frm_menu.resources
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_profesiones.resources
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_resumen_citas.resources
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_tipo_doc_identificacion.resources
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_usuarios.resources
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.Resources.resources
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_inicio.resources
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC.frm_turnos.resources
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\IVSS.vbproj.GenerateResource.cache
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\IVSS.vbproj.CoreCompileInputs.cache
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC-IVSS.exe
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC-IVSS.xml
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC-IVSS.pdb
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\bin\Debug\SIGAC-IVSS.exe.config
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\bin\Debug\SIGAC-IVSS.exe.manifest
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\bin\Debug\SIGAC-IVSS.application
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\bin\Debug\SIGAC-IVSS.exe
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\bin\Debug\SIGAC-IVSS.pdb
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\bin\Debug\SIGAC-IVSS.xml
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\bin\Debug\CrystalDecisions.Data.AdoDotNetInterop.dll
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\bin\Debug\MySql.Data.dll
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\bin\Debug\Google.Protobuf.dll
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\bin\Debug\Zstandard.Net.dll
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\bin\Debug\Renci.SshNet.dll
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\bin\Debug\stdole.dll
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\bin\Debug\System.Buffers.dll
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\bin\Debug\MySql.Data.xml
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC-IVSS.exe.manifest
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\SIGAC-IVSS.application
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\IVSS.vbproj.CopyComplete
+C:\Users\Alexi\OneDrive\Documents\Visual Studio 2019\Projects\IVSS\IVSS\obj\x86\Debug\IVSS.vbprojAssemblyReference.cache
